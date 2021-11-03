@@ -1,2 +1,2 @@
 # stock-analysis
-Analysis of stocks data for DAQO present in an excel
+Analysis of green stocks for Steve's parents investment purpose
