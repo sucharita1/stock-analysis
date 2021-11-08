@@ -32,7 +32,7 @@ Steve has promised to look at DAQO's stock for his parents but he is concerned a
 
   * The refactored code was more readable 
   It contained only a single loop 
-  ![Single Loops](https://github.com/sucharita1/stock-analysis/blob/0308d199ce0fd2857b19c85003e744b43dc5f607/Resources/nested_loops.png?raw=true)
+  ![Single Loops](https://github.com/sucharita1/stock-analysis/blob/32701021a5b4f4e00dfe18ee3e508565826a3785/Resources/single_loop.png?raw=true)
   
 While the old code had a nested loop 
 ![Nested Loops](https://github.com/sucharita1/stock-analysis/blob/0308d199ce0fd2857b19c85003e744b43dc5f607/Resources/nested_loops.png?raw=true)
