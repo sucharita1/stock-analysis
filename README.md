@@ -70,7 +70,7 @@ source: www.publicdomainvectors.org
   * It may introduce new bugs.
 
 
-### 2. Refactoring the current VBA script had mamy more advantages than disadvantages
+### 2. Refactoring the current VBA script had many more advantages than disadvantages
 
 #### Advantages:
   * Reduction in the time complexity of the code. Earlier the code had a time complexity of O(3012 * 12) but now it had reduced to O(3012). So, the code is much more efficient now. Now even if the number of stocks increases still the time complexity will be of the order of O(n). Where n is the number of rows in the excel.
