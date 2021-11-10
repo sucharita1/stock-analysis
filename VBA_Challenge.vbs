@@ -65,14 +65,12 @@ Sub AllStocksAnalysisRefactored()
     For i = 2 To RowCount
     
         '3a) Increase volume for current ticker
-        If Cells(i, 1).Value = tickers(tickerIndex) Then
-        
+               
             tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
         
-        End If
-        
+               
         '3b) Check if the current row is the first row with the selected tickerIndex and fetch the closing price on first day of the year.
-        If Cells(i - 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
+        If Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
                               
                 tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
                       
@@ -80,8 +78,8 @@ Sub AllStocksAnalysisRefactored()
         
         '3c) check if the current row is the last row with the selected ticker
          'If the next row’s ticker doesn’t match, increase the tickerIndex and fetch the closing price on last day of the year.
-        If Cells(i + 1, 1).Value <> tickers(tickerIndex) And Cells(i, 1).Value = tickers(tickerIndex) Then
-                
+         If Cells(i + 1, 1).Value <> tickers(tickerIndex) Then
+         
             tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
                     
 
